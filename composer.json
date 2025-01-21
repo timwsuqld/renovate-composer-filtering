@@ -1,0 +1,29 @@
+{
+    "name": "sua/renovate-composer-filteringmysu",
+    "license": "proprietary",
+    "type": "project",
+    "config": {
+        "platform": {
+            "php": "8.2"
+        },
+        "preferred-install": {
+            "*": "dist"
+        },
+        "sort-packages": true,
+        "gitlab-domains": ["version-control.it.su.org.au", "gitlab.com"]
+
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://version-control.it.su.org.au/api/v4/group/92/-/packages/composer/packages.json",
+            "only": [
+                "sua/*"
+            ]
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "bjeavons/zxcvbn-php": "^1.0"
+    }
+}

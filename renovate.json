@@ -1,1 +1,9 @@
-{}
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:recommended"
+    ],
+    "labels": ["2 Security"],
+    "branchConcurrentLimit": 3,
+    "enabledManagers": ["gitlabci", "gitlabci-include", "composer"]
+}
