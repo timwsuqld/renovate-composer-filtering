@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9dae9696e2cf915235f53dfec2daaf0c",
+    "content-hash": "4b2c38e312b083a8df6625abab440f22",
     "packages": [
         {
             "name": "bjeavons/zxcvbn-php",
-            "version": "1.4.1",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bjeavons/zxcvbn-php.git",
-                "reference": "603e015f2c81118a8f42930140311d125eba6f8a"
+                "reference": "994928ae5b17ecff8baa2406832d37bdf01116c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bjeavons/zxcvbn-php/zipball/603e015f2c81118a8f42930140311d125eba6f8a",
-                "reference": "603e015f2c81118a8f42930140311d125eba6f8a",
+                "url": "https://api.github.com/repos/bjeavons/zxcvbn-php/zipball/994928ae5b17ecff8baa2406832d37bdf01116c0",
+                "reference": "994928ae5b17ecff8baa2406832d37bdf01116c0",
                 "shasum": ""
             },
             "require": {
@@ -27,7 +27,6 @@
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "*",
-                "phpstan/phpstan": "^2.0",
                 "phpunit/phpunit": "^8.5",
                 "squizlabs/php_codesniffer": "3.*"
             },
@@ -58,9 +57,9 @@
             ],
             "support": {
                 "issues": "https://github.com/bjeavons/zxcvbn-php/issues",
-                "source": "https://github.com/bjeavons/zxcvbn-php/tree/1.4.1"
+                "source": "https://github.com/bjeavons/zxcvbn-php/tree/1.3.1"
             },
-            "time": "2024-11-21T22:10:41+00:00"
+            "time": "2021-12-21T18:37:02+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
