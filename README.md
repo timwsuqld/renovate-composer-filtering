@@ -7,6 +7,8 @@ Renovate composer dependency (package releases lookup?) ignores repository filte
 ## Expected behavior
 
 When a composer repository has an "only/exclude" filter on it, that filtering should be respected.
+e.g. If a repository is limited to `sua/*`, then it should not be checked for all composer dependencies, only dependencies that match the filter `sua/*`.
+Essentially https://getcomposer.org/doc/articles/repository-priorities.md#filtering-packages needs to be reimplemented in the composer renovate helper.
 
 ## Link to the Renovate issue or Discussion
 
